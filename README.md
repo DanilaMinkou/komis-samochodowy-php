@@ -22,8 +22,22 @@ Projekt korzysta z bazy danych `komiks_samochodowy`. Przykładowe tabele:
 * `sprzedawcy` - rejestr pracowników komisu (imię, nazwisko, wiek).
 * `tranzakcje` - pełna lista samochodów przypisanych do konkretnych sprzedawców, zawierająca markę, model, rok produkcji oraz cenę.
 
-## 💻 Jak uruchomić?
+## 🔐 Konta testowe (Dane do logowania)
+
+W celu szybkiego przetestowania aplikacji można użyć poniższych, prekonfigurowanych kont testowych:
+
+* **Panel Administratora:**
+  * **Login:** `admin`
+  * **Hasło:** `admin`
+* **Konto Klienta (Istniejące):**
+  * **Login:** `211365`
+  * **Hasło:** `211365`
+
+*Alternatywnie, w panelu klienta można stworzyć zupełnie nowe konto za pomocą formularza rejestracji.*
+
+## 💻 Jak uruchomić projekt lokalnie?
 1. Sklonuj repozytorium do folderu `xampp/htdocs/`.
 2. Zaimportuj plik `komiks_samochodowy.sql` w swoim lokalnym panelu phpMyAdmin.
 3. Dostosuj dane logowania do bazy w pliku `scripts/db_config.php`.
 4. Uruchom serwer i przejdź pod adres `http://localhost/komis-samochodowy-php/`.
+
