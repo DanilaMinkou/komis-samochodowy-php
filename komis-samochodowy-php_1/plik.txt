@@ -1,0 +1,1 @@
+właśnie warunek czy marka jest wybrana jest niepotrzebny jedynie co musimy sprawdzać to czy klient wybrał model i wprowadził ilość i dokonywać modyfikacji bazy danych już tylko na podstawie wybranej modeli

@@ -1,0 +1,4 @@
+Model samochodu: X5
+Ilość: 1
+Cena jednostkowa: 60000.00
+Cena całkowita: 60000
